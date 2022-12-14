@@ -3,7 +3,7 @@ sys.path.append(os.path.abspath(os.path.join(os.getcwd() + "/Game")))
 
 import socket
 from threading import Thread
-from Room import Room
+from Game.Room import Room
 
 import threading
 lock = threading.Lock()
